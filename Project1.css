@@ -1,0 +1,67 @@
+body{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background:  hsl(30, 54%, 90%);
+}
+.box{
+    background-color:  hsl(316, 100%, 97%);
+    padding: 1px 0% 1px 0%;
+    border-radius: 5px;
+}
+.one{
+    position: relative;top: -10px;
+    padding-left: 6%;
+}
+ul{
+    text-align: justify;
+    padding-left: 3%;
+    line-height: 1.5em;
+}
+ol{
+    line-height: 1.5em;
+    text-align: justify;
+    padding-left: 3%;
+}
+ol li::marker{
+    color:brown;
+    line-height: 2em;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+[data-cell="Nutrition value"]{
+    color: brown;
+    font-weight: 600;
+}
+li{
+    padding-left: 1rem;
+}
+.Recipe{
+    display: grid;
+    place-items: center;
+}
+.wrapper{
+    max-width: 45em;
+    margin: 6rem 0;
+    padding: 1.75rem;
+    background: White;
+    border-radius: 2rem;
+}
+hr{
+    margin: 1.5rem 0;
+    border: 1px solid rgb(226, 225, 225);
+}
+table{
+    width: 720px;
+    border-collapse: collapse;
+}
+.tab .item>*{
+    padding: 5px 2px 5px 2px;
+}
+.tab .item{
+    margin-right: auto;
+    border-bottom: 1.1px solid rgb(232, 230, 230);
+}
